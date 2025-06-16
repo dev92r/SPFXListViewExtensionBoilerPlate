@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://deva2341.sharepoint.com/sites/SPFX/ListViewExtension/Forms/AllItems.aspx",
+      "customActions": {
+        "1dd74be4-89d3-4bf0-9507-045d0dd3e43f": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "Hello World! One",
+            "sampleTextTwo": "Hello World! Two"
+          }
+        }
+      }
+    }
+  }
+}

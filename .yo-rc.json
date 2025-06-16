@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.8",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "spfx-list-view-extension-boilerplate",
+    "libraryId": "933687d3-e3c7-485f-8a28-b7cea0f39cde",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-list-view-extension-boilerplate",
+    "solutionShortDescription": "spfx-list-view-extension-boilerplate description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}
