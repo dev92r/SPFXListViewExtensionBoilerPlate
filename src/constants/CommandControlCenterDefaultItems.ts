@@ -1,0 +1,23 @@
+export const DEFAULT_ITEMS = [
+  { Title: "newCommand", CommandType: "OOB", Target: "Everyone", HideCommand: true },
+  { Title: "uploadCommand", CommandType: "OOB", Target: "Everyone", HideCommand: true },
+  { Title: "pinItemCommand", CommandType: "OOB", Target: "Everyone", HideCommand: true },
+  { Title: "syncCommand", CommandType: "OOB", Target: "Everyone", HideCommand: true },
+  { Title: "automateCommand", CommandType: "OOB", Target: "Everyone", HideCommand: true },
+  { Title: "integrateCommand", CommandType: "OOB", Target: "Everyone", HideCommand: true },
+  { Title: "favoriteCommand", CommandType: "OOB", Target: "Everyone", HideCommand: true },
+  { Title: "stasherContextMenuCommand", CommandType: "OOB", Target: "Everyone", HideCommand: true },
+  { Title: "moveCommand", CommandType: "OOB", Target: "Everyone", HideCommand: true },
+  { Title: "copyCommand", CommandType: "OOB", Target: "Everyone", HideCommand: true },
+  { Title: "renameCommand", CommandType: "OOB", Target: "Everyone", HideCommand: true },
+  { Title: "gridCommand", CommandType: "OOB", Target: "Admin", HideCommand: false },
+  { Title: "properties", CommandType: "OOB", Target: "Admin", HideCommand: false },
+  { Title: "exportListToExcelCommand", CommandType: "OOB", Target: "Admin", HideCommand: false },
+  { Title: "shareCommand", CommandType: "OOB", Target: "Admin", HideCommand: false },
+  { Title: "openinfopaneCommand", CommandType: "OOB", Target: "Admin", HideCommand: false },
+  { Title: "addShortcutToOneDriveCommand", CommandType: "OOB", Target: "Everyone", HideCommand: true },
+  { Title: "PinToQuickAccessCommand", CommandType: "OOB", Target: "Everyone", HideCommand: true },
+  { Title: "Upload", CommandType: "Custom", Target: "Admin", HideCommand: false, CustomCommandID: "COMMAND_1" },
+  { Title: "Edit", CommandType: "Custom", Target: "Admin", HideCommand: false, CustomCommandID: "COMMAND_2" },
+  { Title: "Approvals", CommandType: "Custom", Target: "Admin", HideCommand: false, CustomCommandID: "COMMAND_3" }
+];

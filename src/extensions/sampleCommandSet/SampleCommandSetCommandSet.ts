@@ -6,14 +6,18 @@ import {
 } from '@microsoft/sp-listview-extensibility';
 import { CommandIds } from '../../types/enums/commandIds';
 import { ICommandSetCommandSetProperties } from '../../types/interfaces/commandSetProperties';
+import { getSP } from '../../services/pnpjs-config';
+import { ensureCustomList } from '../../services/CommandControlList';
 
 export default class SampleCommandSetCommandSet extends BaseListViewCommandSet<ICommandSetCommandSetProperties> {
 
-  public onInit(): Promise<void> {
+  public async onInit(): Promise<void> {
     // initial state of the command's visibility..
     const compareOneCommand: Command = this.tryGetCommand(CommandIds.Command2);
     compareOneCommand.visible = false;
     this.context.listView.listViewStateChangedEvent.add(this, this._onListViewStateChanged);
+    getSP(this.context);
+    await ensureCustomList()
     return Promise.resolve();
   }
 
