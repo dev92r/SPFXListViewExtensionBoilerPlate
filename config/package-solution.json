@@ -3,7 +3,7 @@
   "solution": {
     "name": "spfx-list-view-extension-boilerplate-client-side-solution",
     "id": "933687d3-e3c7-485f-8a28-b7cea0f39cde",
-    "version": "1.0.0.0",
+    "version": "1.0.1.0",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,

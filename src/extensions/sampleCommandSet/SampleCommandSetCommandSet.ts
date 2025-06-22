@@ -24,10 +24,10 @@ export default class SampleCommandSetCommandSet extends BaseListViewCommandSet<I
   public onExecute(event: IListViewCommandSetExecuteEventParameters): void {
     switch (event.itemId) {
       case CommandIds.Command1:
-        alert(`${this.properties.sampleTextOne}`)
+        alert(`Hello world! One`)
         break;
       case CommandIds.Command2:
-        alert(`${this.properties.sampleTextTwo}`)
+        alert(`Hello world! Two`)
         break;
       default:
         throw new Error('Unknown command');

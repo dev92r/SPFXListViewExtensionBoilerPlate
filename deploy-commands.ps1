@@ -17,6 +17,6 @@ Connect-PnPOnline -Url $siteUrl -ClientId $clientId -Tenant $tenantId -Certifica
 
 # Get-PnPCustomAction -Scope Web | Where-Object { $_.Location -like "*CommandSet*" }
 
-# Remove-PnPCustomAction -Identity 1119db34-e2ec-420b-9ead-2f1feaae2257 -Scope web
+# Remove-PnPCustomAction -Identity 6366d306-a919-43cd-87af-4c358b8468c3 -Scope web
 
 Disconnect-PnPOnline
